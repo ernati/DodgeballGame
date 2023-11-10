@@ -11,14 +11,9 @@
 ## 클래스 구조 - 텍스트
 - 각 클래스 별로, 범주 구분을 위해 "==="를 사용합니다.
 
-  # UnrealStudyGameMode
+# UnrealStudyGameMode
 
-- 내용
-    
-    ## 부모클래스
-    
-    - AGameModeBase 클래스
-- 역할 요약
+- 역할 
     - Start Level과 InGame Level을 각각 맡을 
     BP_StartGameMode와 BP_InGameMode의 부모 클래스
 
