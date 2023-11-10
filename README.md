@@ -24,34 +24,12 @@
 
 # Start_PlayerController
 
-- 내용
-    
-    ## 부모 클래스
-    
-    - APlayerController 클래스
-    
-    ## 클래스 변수
-    
-    - public
-        - `TSubclassOf<class UMainMenuWidget> BP_MainMenuWidget`
-    - private
-        - `class UMainMenuWidget* MainMenuWidget`
-    
-    ## 클래스 메소드
-    
-    - protected
-        - `virtual void BeginPlay() override`
-            - 1. UI와의 소통만 가능하게 InputMode를 전환한 후
-            - 2. 마우스 커서를 보이게 한 후
-            - 3. `BP_MainMenuWidget`의 정보를 읽어서
-                - `MainMenuWidget` 클래스의 인스턴스를 만든 후
-                - `AddToViewport`한다.
-
 - 역할
     - 시작하면, 메인 메뉴를 띄우며, 사용자의 키보드 입력을 제한하고
         - UI와의 소통만 가능하게 한다.
 
 # DodgeballPlayerController
+
 - 역할
     - InGame에서 재시작화면과 HUD를 맡는다.
     - 게임에서 이기거나 패배하면, 재시작 화면을 띄운다.
